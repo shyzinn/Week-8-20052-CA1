@@ -1,4 +1,4 @@
-package com.example.shoppingcart.models;
+package com.gustavo.shoppingcart.models;
 
 import android.widget.ImageView;
 

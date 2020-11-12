@@ -6,7 +6,7 @@
     <data>
         <variable
             name="cartItem"
-            type="com.example.shoppingcart.models.CartItem" />
+            type="com.gustavo.shoppingcart.models.CartItem" />
 
     </data>
 
@@ -19,7 +19,7 @@
             android:layout_width="96dp"
             android:layout_height="96dp"
             android:padding="8dp"
-            android:src="@drawable/iphone11"
+            android:src="@drawable/blank"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"

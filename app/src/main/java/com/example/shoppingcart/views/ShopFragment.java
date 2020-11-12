@@ -1,4 +1,4 @@
-package com.example.shoppingcart.views;
+package com.gustavo.shoppingcart.views;
 
 import android.os.Bundle;
 
@@ -17,11 +17,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.shoppingcart.R;
-import com.example.shoppingcart.adapters.ShopListAdapter;
-import com.example.shoppingcart.databinding.FragmentShopBinding;
-import com.example.shoppingcart.models.Product;
-import com.example.shoppingcart.viewmodels.ShopViewModel;
+import com.gustavo.shoppingcart.R;
+import com.gustavo.shoppingcart.adapters.ShopListAdapter;
+import com.gustavo.shoppingcart.databinding.FragmentShopBinding;
+import com.gustavo.shoppingcart.models.Product;
+import com.gustavo.shoppingcart.viewmodels.ShopViewModel;
 import com.google.android.material.snackbar.BaseTransientBottomBar;
 import com.google.android.material.snackbar.Snackbar;
 

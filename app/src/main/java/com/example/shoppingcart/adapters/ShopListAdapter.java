@@ -1,4 +1,4 @@
-package com.example.shoppingcart.adapters;
+package com.gustavo.shoppingcart.adapters;
 
 import android.content.SharedPreferences;
 import android.view.LayoutInflater;
@@ -10,8 +10,8 @@ import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.shoppingcart.databinding.ShopRowBinding;
-import com.example.shoppingcart.models.Product;
+import com.gustavo.shoppingcart.databinding.ShopRowBinding;
+import com.gustavo.shoppingcart.models.Product;
 
 public class ShopListAdapter extends ListAdapter<Product, ShopListAdapter.ShopViewHolder> {
 

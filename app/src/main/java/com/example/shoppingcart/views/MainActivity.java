@@ -1,4 +1,4 @@
-package com.example.shoppingcart.views;
+package com.gustavo.shoppingcart.views;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,9 +15,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.shoppingcart.R;
-import com.example.shoppingcart.models.CartItem;
-import com.example.shoppingcart.viewmodels.ShopViewModel;
+import com.gustavo.shoppingcart.R;
+import com.gustavo.shoppingcart.models.CartItem;
+import com.gustavo.shoppingcart.viewmodels.ShopViewModel;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.example.shoppingcart.views;
+package com.gustavo.shoppingcart.views;
 
 import android.os.Bundle;
 
@@ -16,11 +16,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.shoppingcart.R;
-import com.example.shoppingcart.adapters.CartListAdapter;
-import com.example.shoppingcart.databinding.FragmentCartBinding;
-import com.example.shoppingcart.models.CartItem;
-import com.example.shoppingcart.viewmodels.ShopViewModel;
+import com.gustavo.shoppingcart.R;
+import com.gustavo.shoppingcart.adapters.CartListAdapter;
+import com.gustavo.shoppingcart.databinding.FragmentCartBinding;
+import com.gustavo.shoppingcart.models.CartItem;
+import com.gustavo.shoppingcart.viewmodels.ShopViewModel;
 
 import java.util.List;
 
@@ -65,7 +65,7 @@ public class CartFragment extends Fragment implements CartListAdapter.CartInterf
         shopViewModel.getTotalPrice().observe(getViewLifecycleOwner(), new Observer<Double>() {
             @Override
             public void onChanged(Double aDouble) {
-                fragmentCartBinding.orderTotalTextView.setText("Total: $ " + aDouble.toString());
+                fragmentCartBinding.orderTotalTextView.setText("Total: €" + aDouble.toString());
             }
         });
 

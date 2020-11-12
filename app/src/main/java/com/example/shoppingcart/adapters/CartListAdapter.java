@@ -1,4 +1,4 @@
-package com.example.shoppingcart.adapters;
+package com.gustavo.shoppingcart.adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,8 +10,8 @@ import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.shoppingcart.databinding.CartRowBinding;
-import com.example.shoppingcart.models.CartItem;
+import com.gustavo.shoppingcart.databinding.CartRowBinding;
+import com.gustavo.shoppingcart.models.CartItem;
 
 public class CartListAdapter extends ListAdapter<CartItem, CartListAdapter.CartVH> {
 

@@ -1,10 +1,10 @@
-package com.example.shoppingcart.repositories;
+package com.gustavo.shoppingcart.repositories;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
-import com.example.shoppingcart.models.CartItem;
-import com.example.shoppingcart.models.Product;
+import com.gustavo.shoppingcart.models.CartItem;
+import com.gustavo.shoppingcart.models.Product;
 
 import java.util.ArrayList;
 import java.util.List;

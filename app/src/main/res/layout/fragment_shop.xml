@@ -12,6 +12,5 @@
         android:layout_height="match_parent"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:spanCount="2"
-        tools:listitem="@layout/shop_row"
-        />
+        tools:listitem="@layout/shop_row" />
 </FrameLayout>

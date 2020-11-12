@@ -1,13 +1,13 @@
-package com.example.shoppingcart.viewmodels;
+package com.gustavo.shoppingcart.viewmodels;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.example.shoppingcart.models.CartItem;
-import com.example.shoppingcart.models.Product;
-import com.example.shoppingcart.repositories.CartRepo;
-import com.example.shoppingcart.repositories.ShopRepo;
+import com.gustavo.shoppingcart.models.CartItem;
+import com.gustavo.shoppingcart.models.Product;
+import com.gustavo.shoppingcart.repositories.CartRepo;
+import com.gustavo.shoppingcart.repositories.ShopRepo;
 
 import java.util.List;
 
